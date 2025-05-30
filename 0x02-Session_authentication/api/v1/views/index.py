@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Module of Index views.
 """
-from flask import jsonify, abort
+from flask import Blueprint, jsonify, abort
 
 # Create the blueprint object here
 app_views = Blueprint('app_views', __name__, url_prefix='/api/v1')
